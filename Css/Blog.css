@@ -1,0 +1,68 @@
+
+
+
+body{
+    width: 99%; 
+    background-color: aqua;
+ }
+ 
+ *{
+     text-decoration: none;
+     
+ }
+ 
+ .navbar{
+     background-color: aliceblue;
+     font-size: bold;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-top: -10px;
+     margin-right: 0px;
+     margin-left: -10px;
+     position: fixed;
+     width: 100%;
+     border-bottom-style: groove;
+ 
+     
+     
+ }
+ 
+ .navbar a:hover{
+     background-color: rgb(176, 190, 203);
+     border-radius: 15px;
+     padding: 5px;
+     transition: 1s;
+ }
+ 
+ 
+ 
+ 
+ 
+ .navdiv{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ li{
+     list-style: none;
+     display: inline-block;
+ }
+ 
+ li a{
+     color: black;
+     font-weight: bold;
+     margin-right: 70px;
+     font-size: 18px;
+     padding: -10px;
+     
+ }
+
+
+ .kc1{
+    float: right;
+    margin-right: 50px;
+    padding-top: -100px;
+    
+ }
